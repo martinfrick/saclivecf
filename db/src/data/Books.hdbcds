@@ -1,4 +1,6 @@
-using AUTHORS as AUTHORS;
+namespace eh.analytics.saclivecf.db;
+
+using eh.analytics.saclivecf.db::AUTHORS as AUTHORS;
 entity BOOKS {
   key ID : Integer;
   TITLE : String(111);
