@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="eh.analytics.saclivecf.db.models.dimensions::CV_D_Books" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_D_Books"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="eh.analytics.saclivecf.db.data::BOOKS">
+    <resourceUri>eh.analytics.saclivecf.db.data::BOOKS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="eh.analytics.saclivecf.db.data::BOOKS">
+  <attributes>
+    <attribute id="ID" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ID"/>
+      <keyMapping columnObjectName="BOOKS" columnName="ID"/>
+    </attribute>
+    <attribute id="TITLE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TITLE"/>
+      <keyMapping columnObjectName="BOOKS" columnName="TITLE"/>
+    </attribute>
+    <attribute id="PRICE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRICE"/>
+      <keyMapping columnObjectName="BOOKS" columnName="PRICE"/>
+    </attribute>
+    <attribute id="AUTHOR_ID" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUTHOR_ID"/>
+      <keyMapping columnObjectName="BOOKS" columnName="AUTHOR_ID"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

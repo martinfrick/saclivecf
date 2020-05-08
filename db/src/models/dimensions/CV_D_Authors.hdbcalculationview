@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="eh.analytics.saclivecf.db.models.dimensions::CV_D_Authors" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_D_Authors"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="eh.analytics.saclivecf.db.data::AUTHORS">
+    <resourceUri>eh.analytics.saclivecf.db.data::AUTHORS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="eh.analytics.saclivecf.db.data::AUTHORS">
+  <attributes>
+    <attribute id="ID" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ID"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="ID"/>
+    </attribute>
+    <attribute id="NAME" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="NAME"/>
+    </attribute>
+    <attribute id="DATEOFBIRTH" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATEOFBIRTH"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="DATEOFBIRTH"/>
+    </attribute>
+    <attribute id="DATEOFDEATH" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATEOFDEATH"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="DATEOFDEATH"/>
+    </attribute>
+    <attribute id="PLACEOFBIRTH" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLACEOFBIRTH"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="PLACEOFBIRTH"/>
+    </attribute>
+    <attribute id="PLACEOFDEATH" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLACEOFDEATH"/>
+      <keyMapping columnObjectName="AUTHORS" columnName="PLACEOFDEATH"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario> 
