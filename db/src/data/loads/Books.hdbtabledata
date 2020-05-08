@@ -2,10 +2,10 @@
   "format_version": 1,
   "imports": [
     {
-      "target_table": " eh.analytics.saclivecf.db.data::BOOKS",
+      "target_table": "eh.analytics.saclivecf.db.data::BOOKS",
       "source_data": {
         "data_type": "CSV",
-        "file_name": " eh.analytics.saclivecf.db.data::Books.csv",
+        "file_name": "eh.analytics.saclivecf.db.data.loads::Books.csv",
         "has_header": true,
         "type_config": {
           "delimiter": ";"

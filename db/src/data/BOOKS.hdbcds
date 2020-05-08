@@ -1,6 +1,6 @@
-namespace eh.analytics.saclivecf.db;
+namespace eh.analytics.saclivecf.db.data;
 
-using eh.analytics.saclivecf.db::AUTHORS as AUTHORS;
+using eh.analytics.saclivecf.db.data::AUTHORS as AUTHORS;
 entity BOOKS {
   key ID : Integer;
   TITLE : String(111);

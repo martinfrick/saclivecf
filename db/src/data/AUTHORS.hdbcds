@@ -1,4 +1,4 @@
-namespace eh.analytics.saclivecf.db;
+namespace eh.analytics.saclivecf.db.data;
 
 entity AUTHORS {
   key ID : Integer;
