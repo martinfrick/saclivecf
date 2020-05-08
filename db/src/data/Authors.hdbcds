@@ -1,0 +1,8 @@
+entity AUTHORS {
+  key ID : Integer;
+  NAME : String(111);
+  DATEOFBIRTH : LocalDate;
+  DATEOFDEATH : LocalDate;
+  PLACEOFBIRTH : String(5000);
+  PLACEOFDEATH : String(5000);
+};

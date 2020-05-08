@@ -1,0 +1,8 @@
+using AUTHORS as AUTHORS;
+entity BOOKS {
+  key ID : Integer;
+  TITLE : String(111);
+  AUTHOR : association to AUTHORS on AUTHOR.ID = AUTHOR_ID;
+  PRICE : Decimal(9, 2);
+  AUTHOR_ID : Integer;
+};
